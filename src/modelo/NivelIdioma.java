@@ -2,15 +2,15 @@
 package modelo;
 
 public class NivelIdioma {
-    private idioma idiomas;
+    private Idioma idiomas;
     private Nivel nivelIdioma; 
     
     
-    public idioma getidioma(){
+    public Idioma getidioma(){
         return idiomas;
     }
     
-    public void setIdioma (idioma idioma,Nivel nivelIdioma){
+    public void setIdioma (Idioma idioma,Nivel nivelIdioma){
         
         this.idiomas= idioma;
         this.nivelIdioma = nivelIdioma;
